@@ -13,6 +13,7 @@
 		8103344927F21AF200CA017E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8103344727F21AF200CA017E /* Main.storyboard */; };
 		8103344B27F21AF300CA017E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8103344A27F21AF300CA017E /* Assets.xcassets */; };
 		8103344E27F21AF300CA017E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8103344C27F21AF300CA017E /* LaunchScreen.storyboard */; };
+		810DE0E427F47E4D00F68218 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DE0E327F47E4D00F68218 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8103344A27F21AF300CA017E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8103344D27F21AF300CA017E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8103344F27F21AF300CA017E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810DE0E327F47E4D00F68218 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		8103345927F21CD800CA017E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				810DE0E327F47E4D00F68218 /* Question.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8103344627F21AF200CA017E /* ViewController.swift in Sources */,
+				810DE0E427F47E4D00F68218 /* Question.swift in Sources */,
 				8103344227F21AF200CA017E /* AppDelegate.swift in Sources */,
 				8103344427F21AF200CA017E /* SceneDelegate.swift in Sources */,
 			);
@@ -331,7 +335,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U8R3G97457;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -360,7 +364,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U8R3G97457;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
